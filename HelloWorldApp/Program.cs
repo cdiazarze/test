@@ -11,7 +11,7 @@ namespace HelloWorldApp
     {
         static void Main(string[] args)
         {
-            Warrior warriorFirst = new Warrior("Bob", "Kunga");
+            Warrior warriorFirst = new Warrior("Alf", "Diaz");
             Console.WriteLine(warriorFirst.GetName());
             Console.ReadKey();
         }
